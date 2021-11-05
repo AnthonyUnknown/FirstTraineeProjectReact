@@ -1,0 +1,146 @@
+
+.shop-name {
+  font-family: 'Fruktur', cursive;
+  font-size: 30px;
+  font-weight: 800;
+  margin-left: 160px;
+}
+
+.wrapper {
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Fruktur', cursive;
+  font-family: 'Zen Antique Soft', serif;
+  max-width: 1100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.own-button {
+  display: flex;
+  align-items: center;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Fruktur', cursive;
+  font-family: 'Zen Antique Soft', serif;
+  background: white;
+  font-size: 20px;
+  border-radius: 15px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.search-input {
+  background: white;
+  font-family: 'Dongle', sans-serif;
+  font-family: 'Fruktur', cursive;
+  font-family: 'Zen Antique Soft', serif;
+  border-radius: 15px;
+  height: 35px;
+}
+
+::-webkit-input-placeholder {
+  text-align:center;
+  font-size: 18px;
+  color: black;
+  }
+
+.top-wrapper {
+  height: 50px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.middle-part {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.block {
+  cursor: pointer;
+  transition-duration : 0.5s;
+  transition-delay : 0.3s;
+}
+
+.block:hover {
+  background: rgb(250, 244, 244);
+}
+
+.bottom-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.review {
+  width: 75%;
+  background:black;
+  color: white;
+  height: 100px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 5px;
+  transition-duration : 1s;
+  transition-delay : 0.5s;
+  cursor: pointer;
+}
+
+.review:hover {
+  background: white;
+  color: black;
+}
+
+.reviwes-name {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 300px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.input-div {
+  display: flex;
+  justify-content: center;
+}
+
+.but {
+  border-radius: 10px;
+  background: black;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
